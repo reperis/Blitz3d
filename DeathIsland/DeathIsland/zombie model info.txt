@@ -1,0 +1,21 @@
+Thanks for buying my Bloody Zombie model!
+Specs:
+
+2695 polys 
+
+comes with 3- 512x512 textures: 
+Diffuse, Specularity, and Normal
+
+The animations include:
+
+*2-attacks (swipe, and bite)
+*death from behind
+*2-death from front (one off origin, the other stays on origin)
+*flinch
+*2-idles (breathing, and roar)
+*2-jumps (one off origin, the other stays on origin)
+*strafe left
+*strafe right
+*walk
+
+any questions or comments email: theQiwiMan@hotmail.com

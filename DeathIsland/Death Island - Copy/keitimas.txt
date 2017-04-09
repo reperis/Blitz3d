@@ -1,0 +1,31 @@
+function update player:If (MouseDown(1))
+			CreateBullet(laser)
+		EndIf
+		
+		If KeyDown (17) 							;move forward
+			MoveEntity cam, 0, 0, steps
+			running = Rnd (0.35, 0.75)
+		EndIf
+	
+		If KeyDown (31)								;move backwards
+			MoveEntity cam, 0, 0, -steps
+			running = Rnd (0.55, 0.95)
+		EndIf
+		If KeyDown (30)								;move left
+			MoveEntity cam, -steps, 0, 0
+			running = Rnd (0.55, 0.95)
+		EndIf
+		If KeyDown (32)								;move right
+			MoveEntity cam, steps, 0, 0
+			running = Rnd (0.55, 0.95)
+		EndIf
+
+		If (MouseDown(1))
+			CreateBullet(laser)
+		EndIf
+
+Function create scene
+	laser=LoadMesh("msh/lazer/lazer.3ds",cam);gun creation
+	LoadTexture laser,"msh/lazer/lazer.jpeg"
+	PositionEntity laser, 3, 0, 5
+	End Function
